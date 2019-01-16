@@ -1,0 +1,24 @@
+* {
+	font-family: Consolas, Arial, sans-serif;
+	font-size: 10pt;
+}
+
+.workspace {
+	display: grid;
+	grid-template-columns: 5fr 2fr;
+}
+
+.title {
+	grid-column: span 2;
+	border-bottom: #ccc solid 2px;
+	padding: 1em;
+	font-size: 140%;
+}
+
+.stuff {
+	padding-top: 2em;
+}
+
+.log {
+	font-size: 7.5pt;
+}
